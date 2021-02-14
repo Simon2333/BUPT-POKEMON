@@ -1,0 +1,1694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1280</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="mainPage">
+     <widget class="QPushButton" name="changePasswordBtn">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>500</y>
+        <width>128</width>
+        <height>128</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+color: rgb(255, 255, 255);
+border-image: url(:/picture/password.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="myBagBtn">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>500</y>
+        <width>128</width>
+        <height>128</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/picture/bag.png);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="quitBtn">
+      <property name="geometry">
+       <rect>
+        <x>1210</x>
+        <y>650</y>
+        <width>64</width>
+        <height>64</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/picture/logout.png);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="userListBtn">
+      <property name="geometry">
+       <rect>
+        <x>590</x>
+        <y>500</y>
+        <width>128</width>
+        <height>128</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+color: rgb(255, 255, 255);
+border-image: url(:/picture/list.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="fightBtn">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>500</y>
+        <width>128</width>
+        <height>128</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/picture/battle.png);
+color: rgb(255, 255, 255);
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>650</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>我的背包</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>650</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>在线列表</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>810</x>
+        <y>650</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>修改密码</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>1040</x>
+        <y>650</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>对战</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>30</y>
+        <width>501</width>
+        <height>321</height>
+       </rect>
+      </property>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>481</width>
+         <height>291</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">     background-color: rgba(255, 255, 255, 200);/*背景色*/
+     border-style: outset; /*边框样式*/
+     border-width: 4px;  /*边框宽度为4像素*/
+     border-radius: 20px; /*边框圆角半径*/
+     border-color: rgba(0, 0, 0, 400);/*边框颜色*/
+     font: bold 14px;/*字体*/
+         color:rgba(0, 0, 0, 100);/*字体颜色*/
+   	 padding: 6px; /*填衬*/</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="fengli">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>150</y>
+         <width>51</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Adobe 黑体 Std R</family>
+         <pointsize>13</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>11</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="type">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>180</width>
+         <height>180</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>481</width>
+         <height>5</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="wendu_3">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>70</y>
+         <width>51</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>rr_basic07</family>
+         <pointsize>36</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>C</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="time">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>190</y>
+         <width>361</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>rr_basic07</family>
+         <pointsize>48</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>17:39:39</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="day">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>150</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>rr_basic07</family>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="wendu">
+       <property name="geometry">
+        <rect>
+         <x>250</x>
+         <y>30</y>
+         <width>201</width>
+         <height>141</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>rr_basic07</family>
+         <pointsize>72</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="wendu_2">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>30</y>
+         <width>51</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>rr_basic07</family>
+         <pointsize>18</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>O</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="op1">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>110</y>
+        <width>501</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="changeBtn">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>500</y>
+        <width>128</width>
+        <height>128</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/picture/change.png);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_15">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>650</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>微软雅黑</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>切换精灵</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="packagePage">
+     <widget class="QPushButton" name="backBtn">
+      <property name="geometry">
+       <rect>
+        <x>1220</x>
+        <y>660</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/picture/back.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QScrollArea" name="bagListArea">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>50</y>
+        <width>423</width>
+        <height>531</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#bagListArea{
+background-color: rgb(141, 220, 163);
+border: 5px solid rgb(0,0,0);
+border-radius : 20px;
+padding: 5px;
+}
+
+QScrollBar:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+    padding-top:9px;  
+    padding-bottom:9px;
+}
+QScrollBar::handle:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,25%);
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:8px;
+    background:rgba(0,0,0,50%);   
+    border-radius:4px;
+    min-height:20;
+}
+
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical  
+{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}
+QScrollBar::add-line:vertical {
+      border: 10px;
+      background: none;
+}
+
+QScrollBar::sub-line:vertiacal {
+      border: none;
+      background: none;
+}</string>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="bagWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>403</width>
+         <height>511</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#bagWidget{
+background-color: rgb(141, 220, 163);
+}</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>900</x>
+        <y>60</y>
+        <width>221</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#widget
+{
+background-color: rgb(141, 220, 163);
+border: 5px solid rgb(0,0,0);
+border-radius : 20px;
+}
+</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,15,1">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QLabel" name="label_6">
+             <property name="text">
+              <string>用户名：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="usernameLabel">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <widget class="QLabel" name="label_8">
+             <property name="text">
+              <string>胜率：</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="winrateLabel">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QLabel" name="label_3">
+             <property name="styleSheet">
+              <string notr="true">
+font: 75 12pt &quot;等线&quot;;</string>
+             </property>
+             <property name="text">
+              <string>宠物个数徽章:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="sumLabel">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QLabel" name="label_4">
+             <property name="styleSheet">
+              <string notr="true">
+font: 75 12pt &quot;等线&quot;;</string>
+             </property>
+             <property name="text">
+              <string>高级宠物徽章:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="adsumLabel">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="userlistPage">
+     <widget class="QPushButton" name="backBtn_2">
+      <property name="geometry">
+       <rect>
+        <x>1230</x>
+        <y>670</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/picture/back.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="rateLabel_2">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>570</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 12pt &quot;等线&quot;;
+color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QWidget" name="horizontalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>80</y>
+        <width>761</width>
+        <height>531</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="0,0,0">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetNoConstraint</enum>
+       </property>
+       <item>
+        <widget class="QScrollArea" name="userListArea_6">
+         <property name="styleSheet">
+          <string notr="true">#userListArea{	
+	color: rgb(255, 175, 77);
+background-color: rgb(255, 175, 77);
+border: 5px solid rgb(0,0,0);
+border-radius : 20px;
+padding: 5px;
+}
+
+QScrollBar:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+    padding-top:9px;  
+    padding-bottom:9px;
+}
+QScrollBar::handle:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,25%);
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:8px;
+    background:rgba(0,0,0,50%);   
+    border-radius:4px;
+    min-height:20;
+}
+
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical  
+{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}
+QScrollBar::add-line:vertical {
+      border: 10px;
+      background: none;
+}
+
+QScrollBar::sub-line:vertiacal {
+      border: none;
+      background: none;
+}</string>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Sunken</enum>
+         </property>
+         <property name="lineWidth">
+          <number>2</number>
+         </property>
+         <property name="midLineWidth">
+          <number>0</number>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAsNeeded</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="userListWidget_6">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>353</width>
+            <height>527</height>
+           </rect>
+          </property>
+          <property name="contextMenuPolicy">
+           <enum>Qt::NoContextMenu</enum>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#userListWidget{
+background-color: rgb(255, 175, 77);
+}</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_8">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>37</width>
+           <height>526</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QScrollArea" name="bagListArea_7">
+         <property name="styleSheet">
+          <string notr="true">#bagListArea{
+background-color: rgb(255, 175, 77);
+border: 5px solid rgb(0,0,0);
+border-radius : 20px;
+padding: 5px;
+}
+
+QScrollBar:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+    padding-top:9px;  
+    padding-bottom:9px;
+}
+QScrollBar::handle:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,25%);
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:8px;
+    background:rgba(0,0,0,50%);   
+    border-radius:4px;
+    min-height:20;
+}
+
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical  
+{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}
+QScrollBar::add-line:vertical {
+      border: 10px;
+      background: none;
+}
+
+QScrollBar::sub-line:vertiacal {
+      border: none;
+      background: none;
+}</string>
+         </property>
+         <property name="verticalScrollBarPolicy">
+          <enum>Qt::ScrollBarAsNeeded</enum>
+         </property>
+         <property name="horizontalScrollBarPolicy">
+          <enum>Qt::ScrollBarAlwaysOff</enum>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="bagWidget_7">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>353</width>
+            <height>527</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">#bagWidget{
+background-color: rgb(255, 175, 77);
+}</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="passPage">
+     <widget class="QLineEdit" name="oldPasswordText">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>150</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="newPasswordText">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>220</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>160</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>请输入旧密码</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>220</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>请输入新密码</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>280</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>确认新密码</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="againText">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>280</y>
+        <width>231</width>
+        <height>51</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="confirmpassBtn">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>410</y>
+        <width>101</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>确认</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="gobackBtn">
+      <property name="geometry">
+       <rect>
+        <x>710</x>
+        <y>410</y>
+        <width>101</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>返回</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="battlePage">
+     <widget class="QPushButton" name="backBtn_3">
+      <property name="geometry">
+       <rect>
+        <x>1210</x>
+        <y>650</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/picture/back.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="duelBtn">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>450</y>
+        <width>101</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>黑体</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/picture/begin2.png);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>决斗赛</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="levelupBtn">
+      <property name="geometry">
+       <rect>
+        <x>1090</x>
+        <y>450</y>
+        <width>101</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>黑体</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/picture/begin1.png);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>升级赛</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QScrollArea" name="bagListArea_4">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>150</y>
+        <width>400</width>
+        <height>550</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#bagListArea{
+background-color: rgb(255, 233, 140);
+border: 5px solid rgb(0,0,0);
+border-radius : 20px;
+padding: 5px;
+}
+
+QScrollBar:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+    padding-top:9px;  
+    padding-bottom:9px;
+}
+QScrollBar::handle:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,25%);
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:8px;
+    background:rgba(0,0,0,50%);   
+    border-radius:4px;
+    min-height:20;
+}
+
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical  
+{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}
+QScrollBar::add-line:vertical {
+      border: 10px;
+      background: none;
+}
+
+QScrollBar::sub-line:vertiacal {
+      border: none;
+      background: none;
+}</string>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="bagWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>398</width>
+         <height>548</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#bagWidget{
+background-color: rgb(255, 233, 140);
+}</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QScrollArea" name="bagListArea_3">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>150</y>
+        <width>400</width>
+        <height>550</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#bagListArea{
+background-color: rgb(255, 233, 140);
+border: 5px solid rgb(0,0,0);
+border-radius : 20px;
+padding: 5px;
+}
+
+QScrollBar:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+    padding-top:9px;  
+    padding-bottom:9px;
+}
+QScrollBar::handle:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,25%);
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:8px;
+    background:rgba(0,0,0,50%);   
+    border-radius:4px;
+    min-height:20;
+}
+
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical  
+{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}
+QScrollBar::add-line:vertical {
+      border: 10px;
+      background: none;
+}
+
+QScrollBar::sub-line:vertiacal {
+      border: none;
+      background: none;
+}</string>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="bagWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>398</width>
+         <height>548</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#bagWidget{
+background-color: rgb(255, 233, 140);
+}</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="startBtn">
+      <property name="geometry">
+       <rect>
+        <x>960</x>
+        <y>590</y>
+        <width>101</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/picture/battle.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="enemypkm">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>20</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="yourpkm">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>20</y>
+        <width>100</width>
+        <height>100</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>40</y>
+        <width>141</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>rr_basic07</family>
+        <pointsize>72</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>VS</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="fightroomPage">
+     <widget class="QProgressBar" name="yourHp">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>20</y>
+        <width>441</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="enemyHp">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>20</y>
+        <width>441</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::RightToLeft</enum>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="attackBtn">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>500</y>
+        <width>181</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+     background-color: rgba(255, 255, 255, 200);/*背景色*/
+     border-style: outset; /*边框样式*/
+     border-width: 4px;  /*边框宽度为4像素*/
+     border-radius: 10px; /*边框圆角半径*/
+     border-color: rgba(255, 225, 255, 30);/*边框颜色*/
+     font: bold 14px;/*字体*/
+         color:rgba(0, 0, 0, 100);/*字体颜色*/
+     padding: 6px; /*填衬*/
+}
+QPushButton:hover{ /*鼠标悬停在按钮上时*/
+        background-color:rgba(200, 200, 200, 200);
+        border-color: rgba(255, 225, 255, 200);
+        color:rgba(0, 0, 0, 200);
+}
+
+QPushButton:pressed { /*按钮被按下时*/
+     background-color:rgba(255, 255, 255, 200);
+         border-color: rgba(255, 225, 255, 30);
+     border-style: inset;
+        color:rgba(0, 0, 0, 100);
+}</string>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="attackBtn_2">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>500</y>
+        <width>181</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+     background-color: rgba(255, 255, 255, 200);/*背景色*/
+     border-style: outset; /*边框样式*/
+     border-width: 4px;  /*边框宽度为4像素*/
+     border-radius: 10px; /*边框圆角半径*/
+     border-color: rgba(255, 225, 255, 30);/*边框颜色*/
+     font: bold 14px;/*字体*/
+         color:rgba(0, 0, 0, 100);/*字体颜色*/
+     padding: 6px; /*填衬*/
+}
+QPushButton:hover{ /*鼠标悬停在按钮上时*/
+        background-color:rgba(200, 200, 200, 200);
+        border-color: rgba(255, 225, 255, 200);
+        color:rgba(0, 0, 0, 200);
+}
+
+QPushButton:pressed { /*按钮被按下时*/
+     background-color:rgba(255, 255, 255, 200);
+         border-color: rgba(255, 225, 255, 30);
+     border-style: inset;
+        color:rgba(0, 0, 0, 100);
+}</string>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="attackBtn_3">
+      <property name="geometry">
+       <rect>
+        <x>730</x>
+        <y>500</y>
+        <width>181</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+     background-color: rgba(255, 255, 255, 200);/*背景色*/
+     border-style: outset; /*边框样式*/
+     border-width: 4px;  /*边框宽度为4像素*/
+     border-radius: 10px; /*边框圆角半径*/
+     border-color: rgba(255, 225, 255, 30);/*边框颜色*/
+     font: bold 14px;/*字体*/
+         color:rgba(0, 0, 0, 100);/*字体颜色*/
+     padding: 6px; /*填衬*/
+}
+QPushButton:hover{ /*鼠标悬停在按钮上时*/
+        background-color:rgba(200, 200, 200, 200);
+        border-color: rgba(255, 225, 255, 200);
+        color:rgba(0, 0, 0, 200);
+}
+
+QPushButton:pressed { /*按钮被按下时*/
+     background-color:rgba(255, 255, 255, 200);
+         border-color: rgba(255, 225, 255, 30);
+     border-style: inset;
+        color:rgba(0, 0, 0, 100);
+}</string>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="attackBtn_4">
+      <property name="geometry">
+       <rect>
+        <x>980</x>
+        <y>500</y>
+        <width>181</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+     background-color: rgba(255, 255, 255, 200);/*背景色*/
+     border-style: outset; /*边框样式*/
+     border-width: 4px;  /*边框宽度为4像素*/
+     border-radius: 10px; /*边框圆角半径*/
+     border-color: rgba(255, 225, 255, 30);/*边框颜色*/
+     font: bold 14px;/*字体*/
+         color:rgba(0, 0, 0, 100);/*字体颜色*/
+     padding: 6px; /*填衬*/
+}
+QPushButton:hover{ /*鼠标悬停在按钮上时*/
+        background-color:rgba(200, 200, 200, 200);
+        border-color: rgba(255, 225, 255, 200);
+        color:rgba(0, 0, 0, 200);
+}
+
+QPushButton:pressed { /*按钮被按下时*/
+     background-color:rgba(255, 255, 255, 200);
+         border-color: rgba(255, 225, 255, 30);
+     border-style: inset;
+        color:rgba(0, 0, 0, 100);
+}</string>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+     <widget class="QLCDNumber" name="energyBar">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>520</y>
+        <width>151</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="yourHead">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>120</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="enemyHead">
+      <property name="geometry">
+       <rect>
+        <x>1150</x>
+        <y>20</y>
+        <width>120</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="yourpokemon">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>280</y>
+        <width>120</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="enemypokemon">
+      <property name="geometry">
+       <rect>
+        <x>940</x>
+        <y>280</y>
+        <width>120</width>
+        <height>120</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="missLabel">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>250</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="missLabel_2">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>250</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="choosePage">
+     <widget class="QScrollArea" name="bagListArea_2">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>100</y>
+        <width>720</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#bagListArea{
+background-color: rgb(141, 220, 163);
+border: 5px solid rgb(0,0,0);
+border-radius : 20px;
+padding: 5px;
+}
+
+QScrollBar:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+    padding-top:9px;  
+    padding-bottom:9px;
+}
+QScrollBar::handle:vertical
+{
+    width:8px;
+    background:rgba(0,0,0,25%);
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:8px;
+    background:rgba(0,0,0,50%);   
+    border-radius:4px;
+    min-height:20;
+}
+
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical  
+{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}
+QScrollBar::add-line:vertical {
+      border: 10px;
+      background: none;
+}
+
+QScrollBar::sub-line:vertiacal {
+      border: none;
+      background: none;
+}</string>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAsNeeded</enum>
+      </property>
+      <property name="horizontalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="bagWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>718</width>
+         <height>309</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#bagWidget{
+background-color: rgb(141, 220, 163);
+}</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="discardBtn">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>540</y>
+        <width>80</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/picture/delet.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="yourdiscard">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>550</y>
+        <width>130</width>
+        <height>130</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_16">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>470</y>
+        <width>161</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>黑体</family>
+        <pointsize>18</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>已选精灵：</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
